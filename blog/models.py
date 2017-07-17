@@ -1,3 +1,5 @@
+# encoding: utf-8
+
 import markdown
 
 from django.db import models

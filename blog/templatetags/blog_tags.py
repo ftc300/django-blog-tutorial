@@ -5,6 +5,7 @@ from ..models import Post, Category, Tag
 
 register = template.Library()
 
+# encoding: utf-8
 
 @register.simple_tag
 def get_recent_posts(num=5):

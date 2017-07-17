@@ -1,3 +1,5 @@
+# encoding: utf-8
+
 import markdown
 
 from markdown.extensions.toc import TocExtension
