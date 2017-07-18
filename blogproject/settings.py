@@ -128,3 +128,9 @@ HAYSTACK_CONNECTIONS = {
 }
 HAYSTACK_SEARCH_RESULTS_PER_PAGE = 10
 HAYSTACK_SIGNAL_PROCESSOR = 'haystack.signals.RealtimeSignalProcessor'
+
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, 'static/'),
+    '/statics/js/',
+    '/statics/css/',
+)
